@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Book Appointment | NeuroKidz - Dr. Jagveer Singh</title>
+    <meta name="description" content="Contact Dr. Jagveer Singh for pediatric neurology consultation in Jaipur. Book an appointment at Cradle Children Hospital or other locations.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <span class="logo-icon"><i class="fas fa-brain"></i></span>
+                    <div class="logo-text">
+                        <span class="logo-name">NeuroKidz</span>
+                        <span class="logo-tagline">Child Neuro Care</span>
+                    </div>
+                </a>
+                <nav class="nav" id="nav">
+                    <ul class="nav-list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Dr. Jagveer Singh</a></li>
+                        <li class="has-dropdown">
+                            <a href="conditions.html">For Parents <i class="fas fa-chevron-down"></i></a>
+                            <ul class="dropdown">
+                                <li><a href="conditions.html#developmental">Developmental Issues</a></li>
+                                <li><a href="conditions.html#neurological">Neurological Conditions</a></li>
+                                <li><a href="investigations.html">Investigations</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="resources.html">Resources</a></li>
+                        <li><a href="contact.html" class="active">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-cta">
+                    <a href="tel:+919876543210" class="phone-btn"><i class="fas fa-phone"></i> Book Appointment</a>
+                </div>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact & Appointments</h1>
+            <p>Get in touch with us for consultations and appointments</p>
+            <div class="breadcrumb">
+                <a href="index.html">Home</a>
+                <span>/</span>
+                <span>Contact</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+
+                    <div class="contact-item">
+                        <i class="fas fa-hospital"></i>
+                        <div>
+                            <h4>Main Practice</h4>
+                            <p><strong>Cradle Children Hospital</strong></p>
+                            <p>Senior Consultant - Pediatric Neurology</p>
+                            <p>Jaipur, Rajasthan</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <a href="tel:+919876543210">+91 98765 43210</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:info@neurokidz.in">info@neurokidz.in</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Consultation Hours</h4>
+                            <p>Please call to confirm appointment times</p>
+                        </div>
+                    </div>
+
+                    <h3 style="margin-top: 40px;">Other Locations in Jaipur</h3>
+
+                    <div class="contact-item">
+                        <i class="fas fa-hospital-alt"></i>
+                        <div>
+                            <h4>Saket Hospital</h4>
+                            <p>Visiting Consultant - Pediatric Neurology</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-hospital-alt"></i>
+                        <div>
+                            <h4>Babylon Hospital</h4>
+                            <p>Visiting Consultant - Pediatric Neurology</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <h3>Send a Message</h3>
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">Parent/Guardian Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="child-age">Child's Age</label>
+                            <input type="text" id="child-age" name="child-age" placeholder="e.g., 3 years">
+                        </div>
+                        <div class="form-group">
+                            <label for="concern">Primary Concern *</label>
+                            <select id="concern" name="concern" required>
+                                <option value="">Select a concern</option>
+                                <option value="seizures">Seizures / Epilepsy</option>
+                                <option value="developmental-delay">Developmental Delay</option>
+                                <option value="autism">Autism / ASD</option>
+                                <option value="adhd">ADHD / Behavioral Issues</option>
+                                <option value="headache">Headache / Migraine</option>
+                                <option value="movement">Movement Disorders</option>
+                                <option value="weakness">Muscle Weakness</option>
+                                <option value="cerebral-palsy">Cerebral Palsy</option>
+                                <option value="speech">Speech Delay</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Brief Description of the Problem *</label>
+                            <textarea id="message" name="message" rows="4" required placeholder="Please describe your child's symptoms or concerns..."></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="preferred-location">Preferred Location</label>
+                            <select id="preferred-location" name="preferred-location">
+                                <option value="cradle">Cradle Children Hospital, Jaipur</option>
+                                <option value="saket">Saket Hospital, Jaipur</option>
+                                <option value="babylon">Babylon Hospital, Jaipur</option>
+                                <option value="kota">Maitri Hospital, Kota</option>
+                                <option value="tonk">Veera Hospital, Tonk</option>
+                                <option value="beawar">Beawar (Agrawal/Jain Hospital)</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Outreach Locations -->
+            <div class="outreach-section" style="margin-top: 60px;">
+                <h3>Outreach Child Neurology OPD Services</h3>
+                <p style="text-align: center; margin-bottom: 25px; color: var(--text-light);">Dr. Jagveer Singh also provides consultations at the following locations:</p>
+                <div class="outreach-grid">
+                    <div class="outreach-card">
+                        <h4>Maitri Hospital, Kota</h4>
+                        <p><i class="fas fa-calendar"></i> Every 1st Thursday</p>
+                    </div>
+                    <div class="outreach-card">
+                        <h4>Veera Hospital, Tonk</h4>
+                        <p><i class="fas fa-calendar"></i> Every 2nd & 4th Sunday</p>
+                    </div>
+                    <div class="outreach-card">
+                        <h4>Agrawal Child Hospital, Beawar</h4>
+                        <p><i class="fas fa-calendar"></i> Every 3rd Thursday</p>
+                    </div>
+                    <div class="outreach-card">
+                        <h4>Jain Child ICU Hospital, Beawar</h4>
+                        <p><i class="fas fa-calendar"></i> Every 3rd Thursday</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Appointment Checklist -->
+            <div class="checklist-section">
+                <h3>Appointment Checklist - What to Bring</h3>
+                <p style="text-align: center; margin-bottom: 25px; color: var(--text-light);">To make the most of your child's appointment, please prepare the following:</p>
+                <div class="checklist-grid">
+                    <div class="checklist-item">
+                        <i class="fas fa-check-circle"></i>
+                        <p>The primary caretaker (mother or father) should accompany the child</p>
+                    </div>
+                    <div class="checklist-item">
+                        <i class="fas fa-check-circle"></i>
+                        <p>Write down your complaints or concerns beforehand</p>
+                    </div>
+                    <div class="checklist-item">
+                        <i class="fas fa-check-circle"></i>
+                        <p>Bring the child's birth and vaccination records</p>
+                    </div>
+                    <div class="checklist-item">
+                        <i class="fas fa-check-circle"></i>
+                        <p>Carry all previous investigations (blood tests, EEG, hearing test, etc.)</p>
+                    </div>
+                    <div class="checklist-item">
+                        <i class="fas fa-check-circle"></i>
+                        <p>If bringing CT/MRI, carry the actual films along with the written report</p>
+                    </div>
+                    <div class="checklist-item">
+                        <i class="fas fa-check-circle"></i>
+                        <p>Bring all previous consultation papers from doctors/hospitals</p>
+                    </div>
+                    <div class="checklist-item">
+                        <i class="fas fa-check-circle"></i>
+                        <p>Bring seizure diary if you've been maintaining one</p>
+                    </div>
+                    <div class="checklist-item">
+                        <i class="fas fa-check-circle"></i>
+                        <p>Bring all current medicines with exact dose and timing</p>
+                    </div>
+                    <div class="checklist-item">
+                        <i class="fas fa-check-circle"></i>
+                        <p>Ensure child is not on empty stomach (has eaten something)</p>
+                    </div>
+                    <div class="checklist-item">
+                        <i class="fas fa-check-circle"></i>
+                        <p>Ensure child has used the toilet before the appointment</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <span class="logo-icon"><i class="fas fa-brain"></i></span>
+                        <div class="logo-text">
+                            <span class="logo-name">NeuroKidz</span>
+                            <span class="logo-tagline">Child Neuro Care</span>
+                        </div>
+                    </a>
+                    <p>Dedicated to child neuro care with compassion and commitment. Where Science Meets Sensitivity in Child Neurology.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="conditions.html">For Parents</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Conditions</h4>
+                    <ul>
+                        <li><a href="conditions.html#autism">Autism</a></li>
+                        <li><a href="conditions.html#epilepsy">Epilepsy</a></li>
+                        <li><a href="conditions.html#adhd">ADHD</a></li>
+                        <li><a href="conditions.html#cerebral-palsy">Cerebral Palsy</a></li>
+                        <li><a href="conditions.html#headache">Headaches</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li><i class="fas fa-hospital"></i> Cradle Children Hospital, Jaipur</li>
+                        <li><a href="tel:+919876543210"><i class="fas fa-phone"></i> +91 98765 43210</a></li>
+                        <li><a href="mailto:info@neurokidz.in"><i class="fas fa-envelope"></i> info@neurokidz.in</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 NeuroKidz - Dr. Jagveer Singh. All rights reserved.</p>
+                <p class="disclaimer">This website is for informational purposes only and does not constitute medical advice.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
