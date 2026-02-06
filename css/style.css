@@ -178,7 +178,7 @@ ul {
 }
 
 .logo-img {
-    height: 60px;
+    height: 50px;
     width: auto;
     max-width: 200px;
 }
@@ -423,6 +423,14 @@ ul {
     justify-content: center;
     color: var(--white);
     font-size: 2.5rem;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.doctor-photo-home {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .doctor-info h3 {
@@ -797,12 +805,16 @@ ul {
 .outreach-card h4 {
     margin-bottom: 10px;
     font-size: 1rem;
-    color: var(--text-color);
+    color: var(--primary-color);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
 .outreach-card p {
-    color: var(--secondary-color);
-    font-size: 0.9rem;
+    color: var(--text-color);
+    font-size: 0.95rem;
+    font-weight: 500;
 }
 
 .outreach-card p i {
