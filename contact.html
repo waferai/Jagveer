@@ -17,11 +17,7 @@
         <div class="container">
             <div class="header-content">
                 <a href="index.html" class="logo">
-                    <span class="logo-icon"><i class="fas fa-brain"></i></span>
-                    <div class="logo-text">
-                        <span class="logo-name">NeuroKidz</span>
-                        <span class="logo-tagline">Child Neuro Care</span>
-                    </div>
+                    <img src="artifacts/logo.jpeg" alt="NeuroKidz - Child Neuro Care" class="logo-img">
                 </a>
                 <nav class="nav" id="nav">
                     <ul class="nav-list">
@@ -76,9 +72,14 @@
                         <i class="fas fa-hospital"></i>
                         <div>
                             <h4>Main Practice</h4>
-                            <p><strong>Cradle Children Hospital</strong></p>
-                            <p>Senior Consultant - Pediatric Neurology</p>
-                            <p>Jaipur, Rajasthan</p>
+                            <p><strong>NeuroKidz Clinic</strong></p>
+                            <p>3/21, Saraswati Marg, Chitrakoot Sector - 3</p>
+                            <p>Vaishali Nagar, Near Mall of Jaipur</p>
+                            <p>Jaipur, Rajasthan - 302021</p>
+                            <p style="margin-top: 10px;"><strong>Phone:</strong> <a href="tel:+919057156221">9057156221</a></p>
+                            <p><strong>Email:</strong> <a href="mailto:neurokidzdrjagveer@gmail.com">neurokidzdrjagveer@gmail.com</a></p>
+                            <p><strong>Consultation Hours:</strong> 3:30 PM to 6:30 PM (only with prior appointment)</p>
+                            <p style="margin-top: 10px;"><a href="https://share.google/ojuASgGLnN4Onsc2E" target="_blank" class="map-link"><i class="fas fa-map-marker-alt"></i> View on Google Maps</a></p>
                         </div>
                     </div>
 
@@ -86,7 +87,7 @@
                         <i class="fas fa-phone"></i>
                         <div>
                             <h4>Phone</h4>
-                            <a href="tel:+917742912997">+91 77429 12997</a>
+                            <a href="tel:+919057156221">+91 9057156221</a>
                         </div>
                     </div>
 
@@ -94,7 +95,7 @@
                         <i class="fas fa-envelope"></i>
                         <div>
                             <h4>Email</h4>
-                            <a href="mailto:info@neurokidz.in">info@neurokidz.in</a>
+                            <a href="mailto:neurokidzdrjagveer@gmail.com">neurokidzdrjagveer@gmail.com</a>
                         </div>
                     </div>
 
@@ -102,11 +103,27 @@
                         <i class="fas fa-clock"></i>
                         <div>
                             <h4>Consultation Hours</h4>
-                            <p>Please call to confirm appointment times</p>
+                            <p>3:30 PM to 6:30 PM (only with prior appointment)</p>
                         </div>
                     </div>
 
                     <h3 style="margin-top: 40px;">Other Locations in Jaipur</h3>
+
+                    <div class="contact-item">
+                        <i class="fas fa-hospital-alt"></i>
+                        <div>
+                            <h4>Cradle Children Hospital</h4>
+                            <p>Visiting Consultant - Pediatric Neurology</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-hospital-alt"></i>
+                        <div>
+                            <h4>Babylon Hospital</h4>
+                            <p>Visiting Consultant - Pediatric Neurology</p>
+                        </div>
+                    </div>
 
                     <div class="contact-item">
                         <i class="fas fa-hospital-alt"></i>
@@ -119,7 +136,15 @@
                     <div class="contact-item">
                         <i class="fas fa-hospital-alt"></i>
                         <div>
-                            <h4>Babylon Hospital</h4>
+                            <h4>Garg Children Hospital</h4>
+                            <p>Visiting Consultant - Pediatric Neurology</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-hospital-alt"></i>
+                        <div>
+                            <h4>Maharshi Children Hospital</h4>
                             <p>Visiting Consultant - Pediatric Neurology</p>
                         </div>
                     </div>
@@ -129,6 +154,10 @@
                 <div class="contact-form">
                     <h3>Send a Message</h3>
                     <form action="#" method="POST">
+                        <div class="form-group">
+                            <label for="child-name">Child Name *</label>
+                            <input type="text" id="child-name" name="child-name" required>
+                        </div>
                         <div class="form-group">
                             <label for="name">Parent/Guardian Name *</label>
                             <input type="text" id="name" name="name" required>
@@ -168,12 +197,20 @@
                         <div class="form-group">
                             <label for="preferred-location">Preferred Location</label>
                             <select id="preferred-location" name="preferred-location">
+                                <option value="neurokidz">NeuroKidz Clinic, Jaipur</option>
                                 <option value="cradle">Cradle Children Hospital, Jaipur</option>
                                 <option value="saket">Saket Hospital, Jaipur</option>
                                 <option value="babylon">Babylon Hospital, Jaipur</option>
+                                <option value="garg">Garg Children Hospital, Jaipur</option>
+                                <option value="maharshi">Maharshi Children Hospital, Jaipur</option>
                                 <option value="kota">Maitri Hospital, Kota</option>
                                 <option value="tonk">Veera Hospital, Tonk</option>
-                                <option value="beawar">Beawar (Agrawal/Jain Hospital)</option>
+                                <option value="sikar-nihit">Nihit Hospital, Sikar</option>
+                                <option value="sikar-swastik">Swastik Hospital, Sikar</option>
+                                <option value="sikar-bachpan">Bachpan Hospital, Sikar</option>
+                                <option value="jhunjhunu">Sanjeevani Hospital, Jhunjhunu</option>
+                                <option value="beawar-agrawal">Agrawal Child Hospital, Beawar</option>
+                                <option value="beawar-jain">Jain Fertility and Child ICU Hospital, Beawar</option>
                             </select>
                         </div>
                         <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
@@ -187,20 +224,24 @@
                 <p style="text-align: center; margin-bottom: 25px; color: var(--text-light);">Dr. Jagveer Singh also provides consultations at the following locations:</p>
                 <div class="outreach-grid">
                     <div class="outreach-card">
-                        <h4>Maitri Hospital, Kota</h4>
-                        <p><i class="fas fa-calendar"></i> Every 1st Thursday</p>
+                        <h4>KOTA</h4>
+                        <p>Maitri Hospital</p>
                     </div>
                     <div class="outreach-card">
-                        <h4>Veera Hospital, Tonk</h4>
-                        <p><i class="fas fa-calendar"></i> Every 2nd & 4th Sunday</p>
+                        <h4>TONK</h4>
+                        <p>Veera Hospital</p>
                     </div>
                     <div class="outreach-card">
-                        <h4>Agrawal Child Hospital, Beawar</h4>
-                        <p><i class="fas fa-calendar"></i> Every 3rd Thursday</p>
+                        <h4>SIKAR</h4>
+                        <p>Nihit Hospital<br>Swastik Hospital<br>Bachpan Hospital</p>
                     </div>
                     <div class="outreach-card">
-                        <h4>Jain Child ICU Hospital, Beawar</h4>
-                        <p><i class="fas fa-calendar"></i> Every 3rd Thursday</p>
+                        <h4>JHUNJHUNU</h4>
+                        <p>Sanjeevani Hospital</p>
+                    </div>
+                    <div class="outreach-card">
+                        <h4>BEAWAR</h4>
+                        <p>Agrawal Child Hospital<br>Jain Fertility and Child ICU Hospital</p>
                     </div>
                 </div>
             </div>
