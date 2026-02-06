@@ -699,6 +699,16 @@ ul {
     margin: 0 auto;
 }
 
+.doctor-preview-photo {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+    display: block;
+    margin: 0 auto;
+}
+
 /* ========================================
    LOCATIONS SECTION
    ======================================== */
