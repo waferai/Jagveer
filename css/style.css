@@ -219,6 +219,7 @@ ul {
     display: flex;
     flex-direction: column;
     line-height: 1.25;
+    text-align: center;
 }
 
 .logo-doctor-name {
@@ -227,12 +228,20 @@ ul {
     font-weight: 700;
     color: var(--primary-color);
     white-space: nowrap;
+    text-transform: uppercase;
 }
 
 .logo-doctor-degree {
     font-size: 0.7rem;
     color: var(--text-muted);
     margin-top: 2px;
+    white-space: nowrap;
+}
+
+.logo-doctor-quals {
+    font-size: 0.65rem;
+    color: var(--text-muted);
+    margin-top: 1px;
     white-space: nowrap;
 }
 
@@ -809,6 +818,74 @@ ul {
 
 .location-city i {
     color: var(--secondary-color);
+}
+
+.reviews-section {
+    margin-top: 60px;
+    padding: 50px 30px;
+    background-color: var(--bg-alt);
+    border-radius: var(--radius);
+    text-align: center;
+}
+
+.reviews-section h3 {
+    color: var(--primary-color);
+    margin-bottom: 30px;
+}
+
+.reviews-rating {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.reviews-rating .rating-number {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    line-height: 1;
+}
+
+.reviews-rating .stars {
+    font-size: 1.75rem;
+    color: #f5b301;
+    letter-spacing: 4px;
+}
+
+.reviews-rating .rating-meta {
+    color: var(--text-light);
+    font-size: 0.95rem;
+    margin: 0;
+}
+
+.reviews-rating .btn {
+    margin-top: 10px;
+}
+
+.reviews-rating .btn .fa-google {
+    margin-right: 8px;
+}
+
+.map-section {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.map-section h3 {
+    margin-bottom: 25px;
+    color: var(--primary-color);
+}
+
+.map-embed {
+    border-radius: var(--radius);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+}
+
+.map-embed iframe {
+    display: block;
 }
 
 .outreach-section {
@@ -1892,6 +1969,10 @@ ul {
 
     .logo-doctor-degree {
         font-size: 0.6rem;
+    }
+
+    .logo-doctor-quals {
+        font-size: 0.55rem;
     }
 
     .hero-text h1 {
